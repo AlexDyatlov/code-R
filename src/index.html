@@ -1,11 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 @@include('components/_head.html')
 
 <body>
   @@include('components/_header.html')
 
-
+  <section class="experience">
+    <div class="container">
+      <h2 class="experience__title title">Почему мы делимся опытом в it?</h2>
+      <div class="experience__item">
+        <div class="experience__item-title"><span class="experience__text--color">{ИННОВАЦИИ}</span></div>
+        <p class="experience__item-text">
+          В Райффайзенбанке их действительно много.
+        </p>
+        <p class="experience__item-text">
+          Здесь внедряются новые технологические решения, а пилоты превращаются в уникальные продукты.
+        </p>
+      </div>
+      <div class="experience__item">
+        <div class="experience__item-title">{ТР<span class="experience__text--color">ЕНДЫ}</span></div>
+        <p class="experience__item-text">
+          <span class="experience__text--color">Ис</span>пользуем OpenSource-решения и практики DevOps, дружим с Agile и
+          Scrum, внедряем LeSS-фреймворк.
+        </p>
+        <p class="experience__item-text">
+          Изучаем и применяем блокчейн: провели три крупные сделки, последнюю — на проприетарной платформе R-chain.
+        </p>
+      </div>
+      <div class="experience__item">
+        <div class="experience__item-title">{ФИНТЕХ<span class="experience__text--color">}</span></div>
+        <p class="experience__item-text">
+          <span class="experience__text--color">Райффа</span>йзенбанк активно работает с финтех-стартапами.
+        </p>
+        <p class="experience__item-text">
+          За 3 года мы запустили 50 пилотов с российскими и зарубежными стартап-проектами.
+        </p>
+      </div>
+    </div>
+  </section>
 
   @@include('components/_footer.html')
   @@include('components/_scripts.html')

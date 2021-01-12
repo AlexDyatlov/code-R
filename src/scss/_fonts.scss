@@ -1,1 +1,10 @@
 @import 'local-fonts';
+
+@font-face {
+  font-family: 'OCRF-RegularC';
+  src: url('../fonts//OCRF-RegularC.woff2') format('woff2'),
+    url('../fonts/OCRF-RegularC.woff') format('woff');
+  font-weight: 400;
+  font-size: normal;
+  font-display: swap;
+}
